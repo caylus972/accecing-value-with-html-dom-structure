@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>adding js as a seperate file and assigning value from one node from another</p>
+    <button typr="button" onclick="myfunction()">click
+  Me!</button>
+<p id="result"></p>
+<p id="result"></p>
+<script> src="script.js">
+
+functionmyfunction(){
+    document.getElementById("result").innerHTML =
+    document.getElementById("dmeo").firstChild.nodeValue;
+    documet.getElementById("result1").innerHTML=
+    document.getElementById("demo").childNodes[0].nodeValue;
+}
+</script>
+</body>
+</html>
